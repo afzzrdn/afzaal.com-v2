@@ -1,16 +1,9 @@
 'use client'
+import Link from 'next/link';
 import React from 'react'
 
 
 const Hero = () => {
-  const handleClick = () => {
-    const link = document.createElement('a');
-    link.href = '/CV_Afzaal.pdf'; // Pastikan file berada di public/cv.pdf
-    link.download = 'CV-Muhammad-Afzaal.pdf'; // Nama file saat diunduh
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
   return (
     <div className='pl-[40px] md:pl-[350px] xl:pl-[250px] px-[20px] items-start justify-center flex flex-col z-20 h-[550px] w-full md:w-[1500px]'>
       <div className='flex flex-col justify-center items-start gap-3 text-white'>
@@ -24,7 +17,7 @@ const Hero = () => {
             <p className='text-gray-300 roboto ml-1'>Software Development</p>
           </div>
         </div>
-        <button onClick={handleClick} className='border-[1px] rounded-md hover:scale-105 transition duration-300 ease-in-out border-[#3485ff] py-3 px-10 mt-3 text-sm text-[#3485ff]'>Download CV</button>
+        <Link href="/certificates/CV_Afzaal.pdf" className='border-[1px] rounded-md hover:scale-105 transition duration-300 ease-in-out border-[#3485ff] py-3 px-10 mt-3 text-sm text-[#3485ff]'>Download CV</Link>
       </div>
     </div>
   )
