@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -33,9 +34,9 @@ const Navbar = () => {
             showNavbar ? "translate-y-0" : "-translate-y-full"
           }`}
       >
-        <a href="/" className="text-xl md:text-3xl text-[#3485ff]">
+        <Link href="/" className="text-xl md:text-3xl text-[#3485ff]">
           村田
-        </a>
+        </Link>
         <button
           className="md:hidden text-white text-xl z-[100]"
           onClick={toggleMenu}
