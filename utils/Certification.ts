@@ -18,28 +18,5 @@ export const certifications: Certification[] = [
         organizer: 'Dicoding',
         file: '/certificates/Dart.pdf'
     },
-    {
-        id: 3,
-        title: 'Problem Solving (Basic)',
-        organizer: 'HackerRank',
-        file: '/certificates/Problem_Solving_Basic.pdf'
-    },
-    {
-        id: 4,
-        title: 'Start Programming with Dart',
-        organizer: 'Dicoding',
-        file: '/certificates/Dart.pdf'
-    },
-    {
-        id: 5,
-        title: 'Problem Solving (Basic)',
-        organizer: 'HackerRank',
-        file: '/certificates/Problem_Solving_Basic.pdf'
-    },
-    {
-        id: 6,
-        title: 'Start Programming with Dart',
-        organizer: 'Dicoding',
-        file: '/certificates/Dart.pdf'
-    },
+    
 ]
