@@ -81,7 +81,7 @@ const Navbar = () => {
         <Link 
           href="mailto:mhmdafz78@gmail.com?subject=Hi, Afzaal%20&body=Hi%20Afzaal,%20I%20want%20to%20discuss%20..." 
           className="rounded-full border-[#424242] bg-[#161616] border-[0.05vw] px-5 py-2 text-xs">
-          Let's Connect
+          Let&apos;s Connect
         </Link>
       </div>
     </div>
