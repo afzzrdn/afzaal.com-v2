@@ -17,7 +17,6 @@ const Hero = () => {
             <p className='text-gray-300 roboto ml-1'>Software Development</p>
           </div>
         </div>
-        <Link href="/certificates/CV_Afzaal.pdf" className='border-[1px] rounded-md hover:scale-105 transition duration-300 ease-in-out border-[#3485ff] py-3 px-10 mt-3 text-sm text-[#3485ff]'>Download CV</Link>
       </div>
     </div>
   )
